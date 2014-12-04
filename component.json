@@ -1,0 +1,39 @@
+{
+  "name": "testapp",
+  "repo": "https://github.com/yapcheahshen/testapp.git",
+  "description": "hello world",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "ksanaforge/boot": "*",
+    "brighthas/bootstrap": "*",
+    "ksana/document": "*",
+    "ksanaforge/stacktoc": "*",
+    "ksanaforge/fileinstaller": "*",
+    "ksanaforge/checkbrowser": "*",
+    "ksanaforge/swipe": "*",
+    "ksanaforge/defaultmain": "*",
+    "ksanaforge/defaultresultlist": "*",
+    "ksanaforge/defaultshowtext": "*",
+    "ksanaforge/dictionary": "*",
+    "ksanaforge/htmlfs": "*",
+    "testapp/main": "*",
+    "testapp/comp1": "*"
+  },
+  "development": {},
+  "paths": [
+    "components",
+    "../components",
+    "../../components",
+    "../node_modules/",
+    "../../node_modules/"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "styles": [
+    "index.css"
+  ]
+}
